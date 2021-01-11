@@ -3,6 +3,7 @@ import React from 'react';
 import {Container} from 'react-bootstrap';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HomeScreen from './components/screens/HomeScreen';
+import ProductScreen from './components/screens/ProductScreen';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 
@@ -17,6 +18,8 @@ const App = ()=> {
           <Container>
     
           <Route path = '/' component={HomeScreen} exact/>
+          {/* /:id serves as a placeholder */}
+          <Route path = '/product/:id' component= {ProductScreen} />
           </Container>
       
         </main>
