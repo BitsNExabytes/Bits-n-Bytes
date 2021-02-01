@@ -15,3 +15,31 @@ h3 {
 
       margin: 0.1rem;
 } */
+
+
+/*
+      
+      Utility classes: colors
+
+*/
+
+.bg-coral{
+
+      background-color: coral;
+}
+.bg-red{
+
+      background-color: red;
+}
+.bg-blue{
+
+      background-color:blue;
+}
+.bg-green{
+
+      background-color:green;
+}
+.bg-yellow{
+
+      background-color:yellow;
+}
